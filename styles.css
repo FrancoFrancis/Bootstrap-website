@@ -1,0 +1,33 @@
+
+/* CUSTOM CSS */
+/* this is to add a ghost element to the body from the top */
+/* do not use here in this particular*/
+
+body::before {
+    display: block;
+    content: "";
+    height: 60px;
+}   
+
+
+/* this is to set the newsletter sign up form to half its size
+from the medium screen up */
+
+ @media screen and (min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+} 
+
+
+/* map will not show up until the width and height is defined here in css */
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.navbar ul a {
+    color: whitesmoke;
+}
+
