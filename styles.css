@@ -10,7 +10,7 @@ body::before {
 }   
 
 
-/* this is to set the newsletter sign up form to half its size
+/* this is to set the newsletter sign up form to half its initial size
 from the medium screen up */
 
  @media screen and (min-width:768px) {
